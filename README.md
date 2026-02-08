@@ -14,11 +14,12 @@
 
 Terminus is a revolutionary terminal application powered by **[Tambo AI](https://tambo.co)** that transforms raw command-line output into beautiful, interactive visualizations. Just describe what you want in natural language, and watch as AI renders rich UI components on a drag-and-drop canvas.
 
-[Features](#-key-features) · [Screenshots](#-screenshots) · [Getting Started](#-getting-started) · [Architecture](#-architecture) · [Documentation](#-documentation)
+[Features](#-key-features) · [Screenshots](#-screenshots) · [Getting Started](#-getting-started) 
 
 ---
 
 ![Terminus Workflow](./public/workflow.png)
+
 
 [🎥 Video Here](https://www.youtube.com/watch?v=_jMZ1NZNU6c)
 
@@ -60,31 +61,22 @@ Terminus uses **Tambo AI** to bridge the gap:
 
 ### Interactive File Navigation
 ![File Navigation](./public/switchFolder.png)
-*Natural language file browsing with intelligent path resolution and visual file grid*
+
 
 ### Git History Visualization
 ![Git History](./public/git-history.png)
-*AI-powered commit graph with branch information and author details*
+
 
 ### Docker Container Management
 ![Docker Dashboard](./public/docker.png)
-*Live container monitoring with status, ports, and quick actions*
+
 
 ### System Performance Monitoring
 ![System Monitor](./public/system.png)
-*Real-time CPU and memory metrics with process breakdown*
+
 
 ---
 
-## GenUI Components
-
-Tambo AI analyzes your intent and selects the best component — no hardcoded rules.
-
-| Component | Triggered By | What It Renders |
-|-----------|-------------|-----------------|
-| **FileGrid** | *"show files"*, `ls`, *"what's on Desktop"* | Interactive file browser with sort, icons & navigation |
-| **GitNetwork** | *"recent commits"*, `git log`, *"who changed this"* | Commit graph with branch refs & authors |
-| *🎯 Key Features
 
 ### 🤖 **AI-Powered Intelligence**
 - **Natural Language Processing** — Describe your intent in plain English, no command syntax required
@@ -162,13 +154,7 @@ flowchart LR
 | **node-pty** | 1.1 | Real PTY shell execution |
 | **xterm.js** | 5.5 | Terminal emulator (Normal mode) |
 
-### Backend Services
-| Library | Purpose |
-|---------|---------|
-| **simple-git** | Git repository operations |
-| **dockerode** | Docker container management |
-| **systeminformation** | System metrics and monitoring |
-| **chokidar** | File system watching |
+
 
 </div>
 
@@ -183,18 +169,18 @@ Before you begin, ensure you have the following installed:
 - **Node.js** ≥ 18.0.0 ([Download](https://nodejs.org/))
 - **npm** ≥ 9.0.0 (comes with Node.js)
 - **Git** ([Download](https://git-scm.com/))
-- A **[Tambo AI API key](https://tambo.ai)** (Required for AI features)
+- A **[Tambo AI API key](https://tambo.co)** (Required for AI features)
 
 ### Quick Start
 
-#### 1️⃣ Clone the Repository
+####  Clone the Repository
 
 ```bash
 git clone https://github.com/anuj123upadhyay/terminus.git
 cd terminus
 ```
 
-#### 2️⃣ Configure Environment
+####  Configure Environment
 
 Create your environment configuration:
 
@@ -210,6 +196,13 @@ VITE_TAMBO_API_KEY=your_tambo_api_key_here
 VITE_TAMBO_URL=https://api.tambo.ai  # Optional: custom API endpoint
 ```
 
+#### Running the dev environment
+
+```bash
+npm run electron:dev
+```
+
+
 > 💡 **Get your API key**: Sign up at [tambo.co](https://tambo.co) to obtain your API key
 
 
@@ -222,7 +215,7 @@ VITE_TAMBO_URL=https://api.tambo.ai  # Optional: custom API endpoint
 | **ContainerDash** | Docker container management | *"docker status"*, *"any containers running?"* |
 | **SystemMonitor** | CPU, memory, and process metrics | *"system stats"*, *"how's my CPU?"*, *"show processes"* |
 | **JsonExplorer** | Collapsible JSON tree viewer | *"show config.json"*, *"display this JSON"* |
-| *🤝 Contributing
+
 
 Contributions are what make the open-source community amazing! We welcome:
 
@@ -239,7 +232,7 @@ Contributions are what make the open-source community amazing! We welcome:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
 
 ---
 
@@ -247,20 +240,12 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
-```
-MIT License — Copyright (c) 2026 Terminus Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the Software.
-```
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **[Tambo AI](https://tambo.ai)** — For pioneering generative UI technology
+- **[Tambo AI](https://tambo.co)** — For pioneering generative UI technology
 - **[Electron](https://www.electronjs.org/)** — For enabling cross-platform desktop apps
 - **[node-pty](https://github.com/microsoft/node-pty)** — For real PTY shell integration
 - **Analytics Template** — For the drag-and-drop canvas inspiration
@@ -272,8 +257,9 @@ merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
 - **Issues**: [GitHub Issues](https://github.com/anuj123upadhyay/terminus/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/anuj123upadhyay/terminus/discussions)
-- **Tambo Docs**: [tambo.ai/docs](https://tambo.ai/docs)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Tambo Docs**: [tambo.ai/docs](https://tambo.co)
+
+
 
 ---
 
@@ -295,4 +281,30 @@ merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
 Made by developers, for developers.
 
-⭐ Star this repo if you found it helpful! ⭐
+---
+## 📞 Contact & Support
+
+<div align="center">
+
+**Built with ❤️ for The UI Strikes Back by WeMakeDevs**
+
+### 👥 Team Members
+
+**Anuj Kumar Upadhyay**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anuj123upadhyay)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anuju760@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anuj1upadhyay)
+[![Hashnode](https://img.shields.io/badge/HashNode-007?style=for-the-badge&logo=hashnode&logoColor=pink)](https://anuj1.hashnode.dev)
+[![Twitter](https://img.shields.io/badge/twitter-100000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/anuj123upadhyay)
+
+**Mohit Upadhyay**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohit5upadhyay)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:upadhyaym7060@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohit5upadhyay)[![Hashnode](https://img.shields.io/badge/HashNode-007?style=for-the-badge&logo=hashnode&logoColor=pink)](https://mohit5upadhyay.hashnode.dev)
+[![Twitter](https://img.shields.io/badge/twitter-100000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mohit5upadhyay)
+
+</div>
+
+---     
